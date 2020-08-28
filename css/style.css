@@ -1,0 +1,189 @@
+:root {
+  --primary-text-colour: #757575;
+  --title-text-colour: #212121;
+  --accent-colour: #2196f3;
+  --footer-text-colour: #ffffff;
+  --background-buton: #f5f4fa;
+  --primary-background-color: #e5e5e5;
+  --sec-background-color: #f5f4fa;
+  --background-header: #ffffff;
+  --background-footer-hero: #2f303a;
+}
+
+.header {
+  background-color: var(--background-header);
+}
+
+.body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-colour);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.accent-logo {
+  color: var(--accent-colour);
+}
+
+.logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+footer .logo {
+  color: #ffffff;
+  font-family: Raleway, sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.header .email-tel {
+  color: var(--primary-text-colour);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.header .email-tel:hover,
+.header .email-tel:focus {
+  color: var(--accent-colour);
+}
+
+.section-team {
+  background-color: var(--sec-background-color);
+}
+.link {
+  color: var(--title-text-colour);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-colour);
+}
+.link-current {
+  color: var(--accent-colour);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.section-title {
+  color: var(--title-text-colour);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.hero {
+  background-color: var(--background-footer-hero);
+}
+.hero-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.section-feature .list-title {
+  color: var(--title-text-colour);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.section-team .list-title {
+  color: var(--title-text-colour);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.section-team .text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.footer {
+  background-color: var(--background-footer-hero);
+}
+
+.adress {
+  color: #ffffff;
+  font-style: normal;
+}
+
+.footer .email-tel {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.email-tel:hover,
+.email-tel:focus {
+  color: var(--accent-colour);
+}
+
+.button {
+  color: var(--title-text-colour);
+  background-color: var(--primary-background-color);
+  font-size: 16px;
+  line-height: 1.62;
+  font-family: inherit;
+}
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: var(--accent-colour);
+}
+
+.hero-button {
+  color: #ffffff;
+  background-color: var(--accent-colour);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  font-family: inherit;
+}
+
+.name-work {
+  font-size: 16px;
+  line-height: 1.87;
+}
+.name-project {
+  color: var(--title-text-colour);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+/*цвет лого #2196F3 и #000000 */
+/*основной цвет шапки и тела #212121 */
+/*цвет телефона #757575 */
+/* вторичный цвет #757575  */
+/*белого фона #FFFFFF*/
+/*цвет емайл и телефона в футере rgba(255, 255, 255, 0.6)*/
+/* основной цвет фона #E5E5E5 */
+/* дополнительный цвет фона #F5F4FA */
+/* цвет фона футера #2F303A */
+/* цвет фона хедера #FFFFFF */
