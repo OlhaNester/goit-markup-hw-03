@@ -12,6 +12,7 @@
 
 .header {
   background-color: var(--background-header);
+  outline: 1px solid red;
 }
 
 .body {
@@ -46,6 +47,8 @@ footer .logo {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .header .email-tel {
@@ -93,15 +96,22 @@ footer .logo {
 
 .hero {
   background-color: var(--background-footer-hero);
+  text-align: center;
+  width: 1600px;
+  height: 600px;
+  outline: 1px solid red;
 }
 .hero-title {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  padding-top: 200px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  outline: 1px solid red;
 }
 
 .section-feature .list-title {
@@ -156,6 +166,9 @@ footer .logo {
 }
 
 .hero-button {
+  border-radius: 4px;
+  padding: 10px 32px;
+  border-width: 0;
   color: #ffffff;
   background-color: var(--accent-colour);
   font-weight: 700;
@@ -163,6 +176,8 @@ footer .logo {
   line-height: 1.87;
   letter-spacing: 0.06em;
   font-family: inherit;
+  margin-bottom: 200px;
+  outline: 1px solid red;
 }
 
 .name-work {
