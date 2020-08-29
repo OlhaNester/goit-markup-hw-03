@@ -31,7 +31,7 @@
 }
 
 .logo {
-  color: #000000;
+   color: #000000;
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -43,13 +43,31 @@
 footer .logo {
   color: #ffffff;
   font-family: Raleway, sans-serif;
+  padding-top: 60px;
+  margin-bottom: 20px;
+  display: block;
 }
 
 .list {
-  list-style: none;
+   list-style: none;
   padding: 0;
   margin: 0;
 }
+
+.section-feature .list {
+  display: flex;
+  justify-content: space-between;
+    }
+
+  .section .list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section-team .list {
+    display: flex;
+    justify-content: space-between;
+  }
 
 .header .email-tel {
   color: var(--primary-text-colour);
@@ -67,6 +85,7 @@ footer .logo {
 .section-team {
   background-color: var(--sec-background-color);
 }
+
 .link {
   display: block;
   padding-top: 20px;
@@ -77,8 +96,7 @@ footer .logo {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  
-  
+   
 }
 
 .link:hover,
@@ -102,14 +120,13 @@ footer .logo {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  margin-top: 0;
+  margin-top: 94px;
   margin-bottom: 50px;
 }
 
 .hero {
   background-color: var(--background-footer-hero);
   text-align: center;
-  height: 600px;
   margin-bottom: 94px;
   outline: 1px solid red;
 }
@@ -126,6 +143,13 @@ footer .logo {
   outline: 1px solid red;
 }
 
+.section {
+  padding-bottom: 94px;
+}
+.section-feature {
+  margin-bottom: 103px;
+}
+
 .section-feature .list-title {
   color: var(--title-text-colour);
   font-size: 14px;
@@ -136,16 +160,23 @@ footer .logo {
   margin-bottom: 10px;
 }
 
+.section-team {
+  display: flex;
+}
+
 .section-team .list-title {
+  text-align: center;
   color: var(--title-text-colour);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  margin-top: 0;
+  margin-top: 30;
   margin-bottom: 10px;
 }
 
 .section-team .text {
+  text-align: center;
+  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   margin-top: 0;
@@ -161,6 +192,11 @@ footer .logo {
   margin-left: auto;
   color: #ffffff;
   font-style: normal;
+}
+
+.footer .adress {
+  display: block;
+  padding-bottom: 60px;
 }
 
 .footer .email-tel {
@@ -245,6 +281,16 @@ p {
   display: flex;
   align-items: center;
 }
+
+.list .feature + .feature {
+  margin-left: 30px;
+}
+
+.img {
+  display: block;
+}
+
+
 
 /*цвет лого #2196F3 и #000000 */
 /*основной цвет шапки и тела #212121 */
