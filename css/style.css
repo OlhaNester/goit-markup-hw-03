@@ -239,6 +239,8 @@ footer .logo {
 .name-work {
   font-size: 16px;
   line-height: 1.87;
+  padding-bottom: 20px;
+  margin-left: 24px;
 }
 .name-project {
   color: var(--title-text-colour);
@@ -246,6 +248,10 @@ footer .logo {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  margin-left: 24px;
+
 }
 
 .container {
@@ -257,10 +263,10 @@ footer .logo {
  outline: 1px solid red;
 }
 
-p {
+ p {
   margin-top: 0;
   margin-bottom: 0;
-}
+} 
 .nav {
   display: flex;
   align-items: center;
@@ -286,9 +292,31 @@ p {
   margin-left: 30px;
 }
 
-.img {
-  display: block;
+.list-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
 }
+
+.gallery {
+  width: calc ((100%-60px)/3);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.gallery:nth-child(3n) {
+  margin-right: 0;
+}
+
+.gallery:nth-last-child(-n+3) {
+  margin-bottom: 0;
+}
+ .picture {
+  display: block;
+} 
 
 
 
