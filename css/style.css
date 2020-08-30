@@ -12,7 +12,7 @@
 
 .header {
   background-color: var(--background-header);
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .body {
@@ -122,7 +122,7 @@ footer .logo {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  margin-top: 94px;
+  margin-top: 0;
   margin-bottom: 50px;
 }
 
@@ -130,7 +130,7 @@ footer .logo {
   background-color: var(--background-footer-hero);
   text-align: center;
   margin-bottom: 94px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 .hero-title {
   color: #ffffff;
@@ -142,14 +142,14 @@ footer .logo {
   padding-top: 200px;
   margin-top: 0;
   margin-bottom: 30px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .section {
   padding-bottom: 94px;
 }
 .section-feature {
-  margin-bottom: 103px;
+  margin-bottom: 94px;
 }
 
 .section-feature .list-title {
@@ -214,6 +214,7 @@ footer .logo {
   font-size: 16px;
   line-height: 1.62;
   font-family: inherit;
+  border: none;
 }
 .button:hover,
 .button:focus {
@@ -233,7 +234,7 @@ footer .logo {
   letter-spacing: 0.06em;
   font-family: inherit;
   margin-bottom: 200px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .name-work {
@@ -260,17 +261,17 @@ footer .logo {
  padding-right: 15px;
  margin-left: auto;
  margin-right: auto;
- outline: 1px solid red;
+ /* outline: 1px solid red; */
 }
 
 .container-filter {
-  width: 611px;
-  margin-left: auto;
+ margin-left: auto;
  margin-right: auto;
- outline: 1px solid red;
+ /* outline: 1px solid red; */
 }
 .container-filter .list {
   display: flex;
+  justify-content: center;
   margin-top: 94px;
   margin-bottom: 43px;
 }
@@ -336,9 +337,9 @@ footer .logo {
   
 }
 .example {
-  width: calc ((100%-60)/3);
-  margin-right: 30px;
-
+  width: calc((100% - 60) / 3);
+      margin-right: 30px;
+}
 .example:nth-child(3n) {
   margin-right: 0;
 }
@@ -349,21 +350,12 @@ footer .logo {
   }
 
 .team {
-  width: calc ((100%-90)/4);
-  margin-right: 30px;
+  width: calc((100% - 90) / 4);
+    margin-right: 30px;
   }
 .team:nth-child(4n) {
   margin-right: 0;
 }
 
 
-/*цвет лого #2196F3 и #000000 */
-/*основной цвет шапки и тела #212121 */
-/*цвет телефона #757575 */
-/* вторичный цвет #757575  */
-/*белого фона #FFFFFF*/
-/*цвет емайл и телефона в футере rgba(255, 255, 255, 0.6)*/
-/* основной цвет фона #E5E5E5 */
-/* дополнительный цвет фона #F5F4FA */
-/* цвет фона футера #2F303A */
-/* цвет фона хедера #FFFFFF */
+
