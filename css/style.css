@@ -12,11 +12,11 @@
 
 .header {
   background-color: var(--background-header);
-  /* outline: 1px solid red; */
+  border-bottom: 1px solid #eeeeee;
 }
 
 .body {
-  background-color: var(--primary-background-color);
+  /* background-color: var(--primary-background-color); */
   color: var(--primary-text-colour);
   font-family: Roboto, sans-serif;
   font-size: 14px;
@@ -118,14 +118,13 @@ footer .logo {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 50px;
+  margin: 0;
+  padding-bottom: 50px;
 }
 
 .hero {
   background-color: var(--background-footer-hero);
   text-align: center;
-  margin-bottom: 94px;
   /* outline: 1px solid red; */
 }
 .hero-title {
@@ -137,7 +136,7 @@ footer .logo {
   text-transform: uppercase;
   padding-top: 200px;
   margin-top: 0;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   /* outline: 1px solid red; */
 }
 
@@ -145,7 +144,8 @@ footer .logo {
   padding-bottom: 94px;
 }
 .section-feature {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .section-feature .list-title {
@@ -154,8 +154,8 @@ footer .logo {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 10px;
+  margin: 0;
+  padding-bottom: 10px;
 }
 
 .section-team .list-title {
@@ -164,8 +164,9 @@ footer .logo {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  margin-top: 30;
-  margin-bottom: 10px;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .section-team .text {
@@ -237,7 +238,7 @@ footer .logo {
   font-size: 16px;
   line-height: 1.87;
   padding-bottom: 20px;
-  margin-left: 24px;
+  padding-left: 24px;
 }
 .name-project {
   color: var(--title-text-colour);
@@ -245,9 +246,10 @@ footer .logo {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
-  margin-bottom: 4px;
-  margin-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  padding-left: 24px;
+  margin: 0px;
 }
 
 .container {
@@ -306,9 +308,10 @@ p {
 }
 
 .gallery {
-  width: calc ((100%-60px)/3);
+  width: calc((100% - 30px * 2) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  outline: 1px solid #eeeeee;
 }
 
 .gallery:nth-child(3n) {
@@ -330,7 +333,7 @@ p {
   flex: flex-wrap;
 }
 .example {
-  width: calc((100% - 60) / 3);
+  width: calc((100% - 30px * 2) / 3);
   margin-right: 30px;
 }
 .example:nth-child(3n) {
@@ -339,12 +342,14 @@ p {
 
 .list-team {
   display: flex;
-  flex: flex-wrap;
+  flex-wrap: wrap;
+  padding-bottom: 94px;
 }
 
 .team {
-  width: calc((100% - 90) / 4);
+  width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
+  background-color: #ffffff;
 }
 .team:nth-child(4n) {
   margin-right: 0;
